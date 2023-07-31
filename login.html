@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <title>Login</title>
+</head>
+<body>
+  <div class="m-auto w-75 parents">
+    <h1 class="text-center mt-5">Smart Login System</h1>
+    <div class="inputs mt-5">
+      <input type="text" id="name" class="form-control mt-5 w-75 m-auto p-2" placeholder="Enter Your Name">
+      <input type="email" id="email" class="form-control mt-5 w-75 m-auto p-2" placeholder="Enter Your Email">
+      <input type="password" id="pass" class="form-control mt-5 w-75 m-auto p-2" placeholder="Enter Your password">
+      <p id="sucsess" class="text-center sucsess mt-5 fs-5">Sucsess</p>
+      <p id="error" class="text-center mt-5 fs-5 error">All inputs is required</p>
+      <div class="btns">
+        <button id="btn" class="btn btn-outline-info w-75 d-flex justify-content-center m-auto" onclick="addValue();">Sign Up</button>
+          <div class="text-center d-flex m-auto justify-content-center align-items-baseline">
+            <p class="text-light">You have an account?</p>
+            <button class="btn-sign" id="bage-login">Signin</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/login.js"></script>
+</body>
+</html>
