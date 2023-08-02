@@ -37,6 +37,6 @@ function clearDate(){
 function welcome() {
   for (let i = 0; i < loginArray.length; i++) {
     if (loginArray[i].email == email.value) {
-    window.location = '/welcome.html'; 
+    window.location = './welcome.html'; 
     localStorage.setItem("Name" , loginArray[i].name)
 }}}
