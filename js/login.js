@@ -6,7 +6,7 @@ var btn =document.getElementById('btn');
 
 
 document.getElementById('bage-login').addEventListener('click', function(){
-  window.location ='/index.html' 
+  window.location ='./index.html' 
 })
 
 

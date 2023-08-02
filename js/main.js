@@ -6,7 +6,7 @@ var btn =document.getElementById("btn")
 
 
 document.getElementById('bageCreat').addEventListener('click' , function () {
-  window.location = '/login.html';
+  window.location = './login.html';
 })
 
 var loginArray = []
